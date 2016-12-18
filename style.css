@@ -1,4 +1,7 @@
-	/* Remove the navbar's default margin-bottom and rounded borders */ 
+body{
+	
+}
+
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
@@ -6,9 +9,26 @@
 	border-color: #ffffff;
 	text-transform: uppercase;
     font-family: Arial Black, Helvetica, sans-serif;
-	font-weight: bold;
-	color:#ffd6f6;
-    }
+	color:#ffafc6;
+}
+	
+#nav{
+	text-transform: uppercase;
+    font-family: Arial Black, Helvetica, sans-serif;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+	transform: translate(-50%, -50%);
+	color:#ffafc6;
+	font-size:15px;
+}
+
+#nav li a {
+	color: #ffafc6;
+
+}
 	
 .jumbotron {
 	color: #ffffff;
@@ -20,12 +40,25 @@
 	width; 100%;
 }
 	
-.info {
-	
+#nav2{
+	text-transform: uppercase;
+    font-family: Arial Black, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0;
+	position: absolute;
+    left: 50%;
+    margin-right: -50%;
+	transform: translate(-50%, -50%);
+	color: #ffafc6;
+	font-size: 20px;
+}
+#nav2 li a {
+	color: #ffafc6;
+
 }
 
-
 h1{
+	color: #ffffff;
 	margin: 0;
     position: absolute;
     top: 50%;
@@ -35,11 +68,103 @@ h1{
 	text-transform: uppercase;
     font-family: Arial Black, Helvetica, sans-serif;
 	font-weight: bold;
-	color: #ffbfe0;
+	
 }
-    
-    /* Add a gray background color and some padding to the footer */
-footer {
+
+h2{
+	text-transform: uppercase;
+	color: #ffafc6;
+	text-align: center;
+	font-family: Arial Black, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h3{
+	text-transform: uppercase;
+	color: #ffafc6;
+	text-align: center;
+	font-family: Arial Black, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h4{
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #9bffaf;
+	text-align: center;
+	font-family: Arial Black, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left:30px;
+	margin-right: auto;
+}
+
+#item{
+	border: 10px;
+	border-style: solid;
+	border-color: #ffe62b;
 	background-color: #ffffff;
-	padding: 25px;
-    }
+	margin-left: 50px;
+	margin-right: auto;
+	margin-top: 10px;
+	float: left;
+}
+
+.LBox{
+	height: 155px;
+	width: 20%;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-transform: uppercase;
+    font-family: Arial Black, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #ffafc6;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+	
+	

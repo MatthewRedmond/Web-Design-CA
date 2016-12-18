@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+</html><head>
+	<title>Golfwang</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn. .com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<script>
+		$('body').hide() 
+		$('body').fadeIn(2000);
+	</script>
+	
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+	<div class="collapse navbar-collapse" id="nav">
+		<ul class="nav navbar-nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="All Items.html">All Items</a></li>
+		<li><a href="New Items.html">New Items</a></li>
+		<li><a href="Tees.html">Tees</a></li>
+		<li><a href="Tops.html">Tops</a></li>
+		<li><a href="Hats.html">Hats</a></li>
+		<li><a href="Socks.html">Socks</a></li>
+		<li><a href="Accessories.html">Accessories</a></li>
+		</ul>
+	</div>
+	<ul class="nav navbar-nav navbar-right">
+		<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	</ul>
+  </div>
+</nav>
+
+<div class=LBox>   
+
+<br><button onclick="myFunction()">Login</button>
+
+<p id="login"></p>
+
+<script>
+function myFunction() {
+    var person = prompt("Please enter your name");
+    
+    if (person != null) {
+        document.getElementById("login").innerHTML =
+        "Hello " + person + "! Thank you for loggining in";
+    }
+}
+</script>
+	
+</head>
+
+</body>
+
